@@ -10,10 +10,16 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
+    "standard": "^17.1.2",
     "vite": "^7.2.4"
   },
   "dependencies": {
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard"
+    ]
   }
 }
